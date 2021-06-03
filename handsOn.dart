@@ -8,8 +8,8 @@ void Printmain() {
 }
 
 //For user input and output
-/*
-main() {
+
+/*void IOmain() {
   stdout.writeln('What is your name?');
   String name = stdin.readLineSync();
   print('My name is: $name');
@@ -25,13 +25,13 @@ dynamic
 */
 
 //RAW String
-/*main() {
+void Rawmain() {
   var s = r'In a raw \n string';
   print(s);
-}*/
+}
 
 //Multi line string
-/*main() {
+void Multimain() {
   var s1 = '''
   You can create
   multi-line string''';
@@ -41,12 +41,12 @@ dynamic
 
   print(s1);
   print(s2);
-}*/
+}
 
 //Type Conversion
 
 //String->int
-/*main() {
+void TypeConversionmain() {
   //String to int
   var one = int.parse('1');
   assert(one == 1);
@@ -62,7 +62,7 @@ dynamic
 //double->String
   String piAsString = 3.1459.toStringAsFixed(2);
   assert(piAsString == '3.14');
-}*/
+}
 
 //Null Aware Operator
 //(?.),(??),(??==)
@@ -71,7 +71,7 @@ class Num {
   int num = 10;
 }
 
-/*main() {
+void NullAwaremain() {
   var n = Num();
   int number = 0;
 
@@ -83,7 +83,7 @@ class Num {
   //number = n?.num ?? 0;
 //print(number??=100);
   print(number);
-}*/
+}
 
 //Type Test
 /*void main() {
