@@ -1,11 +1,11 @@
 import 'dart:io';
 
 //For printing
-/*main() {
+void Printmain() {
   var firstName = 'Isha';
   String lastName = 'Kapadia';
   print(firstName + ' ' + lastName);
-}*/
+}
 
 //For user input and output
 /*
@@ -315,6 +315,6 @@ void letVerifyTheValue(var val) {
   }
 }
 
-void main() {
+void Verifymain() {
   letVerifyTheValue(0);
 }
